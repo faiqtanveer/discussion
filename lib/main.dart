@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
               : TextField(
                   decoration: InputDecoration(
                     icon: Icon(Icons.search),
-                    hintText: " Search by SubjectName",
+                    hintText: " Search by MPT Question",
                     hintStyle: TextStyle(
                       color: Colors.white,
                     ),

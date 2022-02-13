@@ -47,7 +47,7 @@ class FBCloudMessaging {
         onMessage: (Map<String, dynamic> message) async {
           print("onMessage: $message");
           String msg = 'notibody';
-          String name = 'chatapp';
+          String name = 'cssapp';
           if (Platform.isIOS) {
             msg = message['aps']['alert']['body'];
             name = message['aps']['alert']['title'];
